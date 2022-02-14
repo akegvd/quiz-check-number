@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.number-col,
+.type-col,
+.result-col {
+  border: 1px solid black;
+}
+
+.number-col {
+  flex: 0;
+  min-width: 200px;
+}
+
+.type-col {
+  flex: 1;
+  min-width: 100px;
+}
+
+.result-col {
+  flex: 0;
+  min-width: 300px;
+}
